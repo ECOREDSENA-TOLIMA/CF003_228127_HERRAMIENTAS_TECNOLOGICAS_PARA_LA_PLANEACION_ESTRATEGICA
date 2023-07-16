@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Marco de referencia Arquitectura Empresarial',
+    descripcionCurso:
+      'La Arquitectura Empresarial (AE) permite que las organizaciones armonicen los procesos de negocio con la gestión de tecnología; por lo tanto, es necesario identificar los casos de uso resueltos comúnmente, así como los elementos que componen un modelo de AE, sus principales marcos de referencia y las ventajas logradas por las organizaciones que adoptan este modelo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,27 +32,63 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Razones para diseñar e implementar una Arquitectura Empresarial (AE)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conceptualización de Arquitectura empresarial',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Elementos del modelo de Arquitectura Empresarial',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Ventajas de desarrollar Arquitectura Empresarial',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Marcos de Referencia de Arquitectura Empresarial',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo:
+              'Tipos y características de los marcos de referencia de la Arquitectura Empresarial',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Principios y dominios',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Proceso de Arquitectura Empresarial',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Productos de la arquitectura',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          'Selección del marco de arquitectura adecuado para la organización',
         desarrolloContenidos: true,
       },
     ],

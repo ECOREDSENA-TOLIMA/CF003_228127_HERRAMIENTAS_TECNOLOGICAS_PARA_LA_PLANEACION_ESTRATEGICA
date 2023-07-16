@@ -1,15 +1,20 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotacion1 3.6s linear infinite
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    right: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 26%
+    right: 78%
 
+@keyframes rotacion1
+  from 
+    transform: rotate(0deg)
+  to 
+    transform: rotate(360deg)
 
 @keyframes float1
   0%
@@ -17,3 +22,80 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__componente
+  h1
+    color: $black
+.banner-principal__descripcion
+  p
+    color: $black
+.banner-principal__accion
+  a > *
+    color: $white
+
+a.boton
+  i, span
+    color: $white
+
+.titulo-herramientas 
+  padding: 1rem
+  background-color: $color-acento-contenido
+  color: $white
+  border-radius: 0 1.5rem
+
+.titulo-herramientas-2
+  padding: 0.8rem
+  background-color: $color-acento-contenido
+  color: $white
+  border-radius: 1.2rem
+  text-align: center
+
+.titulo-herramientas-3
+  padding: 0.8rem
+  background-color: $color-acento-botones
+  color: $white
+  text-align: center
+  height: 28%
+
+.titulo-herramientas-4
+  padding: 0.8rem
+  background-color: $color-acento-contenido
+  color: $white
+  text-align: center
+  height: 28%
+
+
+.tarjeta-avatar-b .tarjeta
+  margin-left: -14%
+  padding-left: 10%
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+.slyder-a__bullets__item
+  background-color: $color-primario
+.slyder-a__bullets__item.slyder-a__bullets__item--active
+    background-color: $color-acento-botones !important
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+  color: #FFFFFF !important
+  i
+    color: #FFFFFF !important
+
+  
+.cajon.color-primario
+  background-color: lighten($color-primario, 45%)
+
+.tarjeta.color-acento-botones
+  background-color: lighten($color-acento-botones, 32%)
+  *
+    color: $black
+  
+.tarjeta.color-primario
+  background-color: lighten($color-primario, 45%)
+  *
+    color: $black
+.tarjeta-a
+  border-radius: 20px
+.tarjeta-a.color-primario
+  background-color: $color-primario
