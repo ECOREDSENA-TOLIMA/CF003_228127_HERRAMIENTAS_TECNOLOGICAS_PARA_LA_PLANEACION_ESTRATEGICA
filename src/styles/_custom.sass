@@ -110,7 +110,7 @@ a.boton
     background-color: lighten($color-primario, 38%)
 
 
-.tema2
+.tema2,.tema3
   .img-infografica__item
     width: 5%
   .img-infografica__item__numero
@@ -118,6 +118,31 @@ a.boton
   .bloque-texto-a.color-primario
     background-color: #E8E8E8
     
-.tema2
+.tema2,.tema3
   .img-infografica__card
     width: 400px
+
+
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
