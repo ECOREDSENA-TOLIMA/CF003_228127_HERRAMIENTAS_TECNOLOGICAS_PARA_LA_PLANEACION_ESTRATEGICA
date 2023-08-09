@@ -26,9 +26,46 @@
       .col-12.mb-2.mb-md-0
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Tipos de marcos de referencia de AE</i>
-        figure 
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-02-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-02-sm.svg', alt='') 
+        .tarjeta--container.row.mb-2
+          .col-md.tarjeta.color-secundario.p-4
+            .row.justify-content-center.mb-4
+              .col-12
+                h4.text-center Marcos de referencia integrales
+              .col-10.col-md-7.mb-4
+                figure
+                  img(src='@/assets/curso/temas/tema3/fig-3-1.svg', alt='')
+              .col-10.col-md-6
+                p.text-small.mb-0 ▪ TOGAF
+                p.text-small.mb-0 ▪ Zachman 
+          .col-md.tarjeta.color-adicional-1.p-4
+            .row.justify-content-center.mb-4
+              .col-12
+                h4.text-center Marcos de referencia industrias
+              .col-10.col-md-7.mb-4
+                figure
+                  img(src='@/assets/curso/temas/tema3/fig-3-2.svg', alt='')
+              .col-12.row.justify-content-center
+                .col-10.col-md-4
+                  p.text-small.mb-0 ▪ BIAN
+                  p.text-small.mb-0 ▪ DODAF
+                  p.text-small.mb-0 ▪ FEAF ODF
+                .col-10.col-md-4 
+                  p.text-small.mb-0  ▪ IndEA
+                  p.text-small.mb-0 ▪ MRAE
+
+          .col-md.tarjeta.color-secundario.p-4
+            .row.justify-content-center.mb-4
+              .col-12
+                h4.text-center Marcos de referencia dominio
+              .col-10.col-md-7.mb-4
+                figure
+                  img(src='@/assets/curso/temas/tema3/fig-3-3.svg', alt='')
+              .col-md-6.col-10
+                p.text-small.mb-0 ▪ SABSA
+                p.text-small.mb-0 ▪ DODAF 
+        //- figure 
+        //-   img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-02-md.svg', alt='')
+        //-   img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-02-sm.svg', alt='') 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Marcos integrales de arquitectura empresarial
@@ -52,7 +89,7 @@
       .col-12.col-md-8
         p De otra parte, el #[b Marco Zachman] se basa en un conjunto de perspectivas; cada una existe en la intersección del tipo de parte interesada y el aspecto de la arquitectura.  Este marco no proporciona un modelo de base ni un método para desarrollar la Arquitectura Empresarial. El equipo de AE necesita desarrollar su método, proceso y notación para recolectar, administrar o usar la información.
         p.mb-0 El cuadro de Zachman presenta seis columnas con los aspectos basados en los siguientes interrogantes:
-        p ¿qué?, ¿dónde?, ¿quién?, ¿cuándo’, ¿por qué? y ¿cómo? 
+        p ¿qué?, ¿dónde?, ¿quién?, ¿cuándo’, ¿por qué? y ¿cómo?.
         p Las columnas se utilizan para enmarcar diferentes explicaciones de cada una de las partes interesadas. Las filas presentan las partes interesadas: planificadores, propietarios, diseñadores (arquitectos), implementadores, usuarios. Alternativamente, se utilizan para representar el alcance, el contexto, los conceptos comerciales, la lógica del sistema, la tecnología.
       .col-12.col-md-4
         figure
@@ -71,11 +108,11 @@
                   p.text-small.mb-0 Para conocer más sobre el marco Zachman consulte la página.
                   p.text-small Para profundizar en el estándar TOGAF® consulte la página The Open Group
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Partes de la entrevista.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.zachman.com/" target="_blank")
                     span Link
                     i.fas.fa-link
                   br
-                  a.boton.color-acento-botones.mt-3(:href="obtenerLink('/downloads/Partes de la entrevista.pdf')" target="_blank")
+                  a.boton.color-acento-botones.mt-3(href="https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html" target="_blank")
                     span Link
                     i.fas.fa-link
         
@@ -90,7 +127,7 @@
         .col-md-3.col-lg-2.col-12.mb-4.mb-md-0
           img(src='@/assets/curso/temas/tema3/tema3-05.svg' alt='')
         .col-md-9.col-lg-10.col-12.mb-4.mb-md-0 
-          p Se refiere a la Red de Arquitectura de la industria bancaria. Es una comunidad global, abierta, independiente y única en la que bancos, proveedores de software e integradores de sistemas colaboran para definir un marco común para la industria bancaria y promover la interoperabilidad bancaria.  
+          p Se refiere a la Red de Arquitectura de la industria bancaria. Es una comunidad global, abierta, independiente y única en la que bancos, proveedores de #[em software] e integradores de sistemas colaboran para definir un marco común para la industria bancaria y promover la interoperabilidad bancaria.  
       .row(titulo="DODAF")
         .col-md-3.col-lg-2.col-12.mb-4.mb-md-0
           img(src='@/assets/curso/temas/tema3/tema3-06.svg' alt='')
@@ -118,10 +155,16 @@
     p.mb-5(data-aos="fade-down") Optimizan los marcos de arquitectura para un dominio específico. A continuación, se mencionan dos marcos de referencia que proporcionan técnicas y métodos más detallados para la Arquitectura de Seguridad y la de Integración:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-md-5
-        img(src='@/assets/curso/temas/tema3/tema3-11.svg' alt='')
-      .col-md-5
-        img(src='@/assets/curso/temas/tema3/tema3-10.svg' alt='')
+      .col-md-5.tarjeta.color-secundario.p-3.mx-md-2.mb-3
+        .h4 
+          span(style="border-bottom: 3px solid #FEE132") Marco de Arquitectura de Seguridad - SABSA
+        p Utiliza el modelo como base y construye herramientas especializadas para identificar objetivos y riesgos. Después de todo, el riesgo es el efecto de la incertidumbre en la realización de sus objetivos.
+        //- img(src='@/assets/curso/temas/tema3/tema3-11.svg' alt='')
+      .col-md-5.tarjeta.color-secundario.p-3.mx-md-2.mb-3
+        .h4 
+          span(style="border-bottom: 3px solid #FEE132") Arquitectura de Integración - DODAF
+        p Fue diseñado para resolver el problema central al que se enfrentan las agencias de defensa, la integración de sistemas duraderos y organizaciones diversas en misiones y capacidades comunes.
+        //- img(src='@/assets/curso/temas/tema3/tema3-10.svg' alt='')
 
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -171,14 +214,14 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Dominio de aplicación 
-            p Corresponde a la tercera capa y se ocupa de la forma en la que se desarrollan e implementan las aplicaciones individuales, así como la relación que se genera en esas aplicaciones con el proceso comercial central. Se describen el conjunto de aplicativos, aplicaciones o sistemas de información que habilitan las actividades de los negocios, y este dominio se centra en el ciclo del desarrollo del software y la integración entre las diferentes aplicaciones.
+            p Corresponde a la tercera capa y se ocupa de la forma en la que se desarrollan e implementan las aplicaciones individuales, así como la relación que se genera en esas aplicaciones con el proceso comercial central. Se describen el conjunto de aplicativos, aplicaciones o sistemas de información que habilitan las actividades de los negocios, y este dominio se centra en el ciclo del desarrollo del #[em software] y la integración entre las diferentes aplicaciones.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/tema3-16.png', alt='')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Dominio tecnológico  
-            p Corresponde a la capa inferior, describe las capacidades lógicas de software y hardware que se requieren para respaldar la implementación de servicios comerciales, de datos y de aplicaciones; incluye la infraestructura de TI, middleware, redes, comunicaciones, procesamiento, y estándares. El crecimiento del gasto en el dominio de la tecnología a menudo supera el resto del gasto en el negocio, se busca ser estratégicos en la forma en que el dominio de la tecnología satisface las necesidades del negocio. 
+            p Corresponde a la capa inferior, describe las capacidades lógicas de #[em software] y hardware que se requieren para respaldar la implementación de servicios comerciales, de datos y de aplicaciones; incluye la infraestructura de TI, middleware, redes, comunicaciones, procesamiento, y estándares. El crecimiento del gasto en el dominio de la tecnología a menudo supera el resto del gasto en el negocio, se busca ser estratégicos en la forma en que el dominio de la tecnología satisface las necesidades del negocio. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/tema3-17.png', alt='')
@@ -258,7 +301,7 @@
         .col-md-3.col-lg-2.col-12.mb-4.mb-md-0
           img(src='@/assets/curso/temas/tema3/tema3-20.svg' alt='')
         .col-md-9.col-lg-10.col-12.mb-4.mb-md-0 
-          p Ejemplos 
+          p Ejemplos:
           ul.lista-ul.mb-2.ps-3
             li.mb-0
               i.fas.fa-play(style="color:#7E10B8")
@@ -273,11 +316,11 @@
         .col-md-3.col-lg-2.col-12.mb-4.mb-md-0
           img(src='@/assets/curso/temas/tema3/tema3-21.svg' alt='')
         .col-md-9.col-lg-10.col-12.mb-4.mb-md-0 
-          p Ejemplos 
+          p Ejemplos: 
           ul.lista-ul.mb-2.ps-3
             li.mb-0
               i.fas.fa-play(style="color:#7E10B8")
-              | Matriz de servicios Tecnológicos por Sistemas de Información .
+              | Matriz de servicios Tecnológicos por Sistemas de Información.
             li.mb-0
               i.fas.fa-play(style="color:#7E10B8")
               | Matriz de canales de acceso por componente de información.
@@ -286,12 +329,12 @@
               | Matriz de asignación de responsabilidades (RACI).
             li.mb-0
               i.fas.fa-play(style="color:#7E10B8")
-              | Matriz de Sistemas de Información por Entidades de Negocio
+              | Matriz de Sistemas de Información por Entidades de Negocio.
       .row(titulo="Diagramas")
         .col-md-3.col-lg-2.col-12.mb-4.mb-md-0
           img(src='@/assets/curso/temas/tema3/tema3-22.svg' alt='')
         .col-md-9.col-lg-10.col-12.mb-4.mb-md-0 
-          p Ejemplos 
+          p Ejemplos:
           ul.lista-ul.mb-2.ps-3
             li.mb-0
               i.fas.fa-play(style="color:#7E10B8")

@@ -31,8 +31,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Conceptualización arquitectura empresarial</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-02-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-02-sm.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-02-md.svg', alt='La conceptualización de la estrategia empresarial, se relaciona con la tecnología la información, las personas y los procesos. Todo lo anterior mediado por la normatividad, el comportamiento del mercado y el comportamiento de los ciudadanos.')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-02-sm.svg', alt='La conceptualización de la estrategia empresarial, se relaciona con la tecnología la información, las personas y los procesos. Todo lo anterior mediado por la normatividad, el comportamiento del mercado y el comportamiento de los ciudadanos.') 
 
     p.mb-3(data-aos="fade-down") Con el desarrollo de la AE se trata de comprender precisamente el comportamiento de las relaciones entre elementos de la organización y cómo son afectados por los factores externos, comportamiento de clientes y usuarios, además de los cambios regulatorios.
     p.mb-5(data-aos="fade-down") Conozcamos algunas importantes definiciones que nos proporcionan ISO/IEC/EEE 42010:2011 y TOGAF:
@@ -81,7 +81,7 @@
         p Hemos estado mencionando el término “arquitecto” reiterativamente, por lo que consideramos necesario indicar que se podría relacionar este término al profesional de la construcción que proyecta, diseña y dirige la construcción de estructuras urbanísticas. En este mismo sentido, lo empleamos a nivel organizacional, ya que los arquitectos empresariales hacen lo propio para que la organización enfrente desafíos digitales.
         p Tengamos presente que los arquitectos empresariales son intermediarios entre el negocio y la gerencia de tecnologías de la información.
 
-    p.mb-5(data-aos="fade-down") Pero, ¿Cuáles son los roles que se relacionan con la Arquitectura Empresarial?
+    p.mb-5(data-aos="fade-down") Pero, ¿Cuáles son los roles que se relacionan con la Arquitectura Empresarial?.
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-lg-11.col-12.d-block.d-md-none
@@ -94,10 +94,10 @@
           .tarjeta.color-acento-botones.p-3(x="20%" y="50%" numero="1")
             h4 Arquitecto Empresarial
             p Existen varios tipos de arquitectos, que se desempeñan desde su dominio y colaboran con su experiencia y habilidades en la construcción de la Arquitectura Empresarial de una organización. Estos son:
-            p.mb-0 ▪  Arquitectos empresariales,
-            p.mb-0 ▪  Arquitectos de soluciones, 
-            p.mb-0 ▪  Arquitectos de seguridad 
-            p.mb-0 ▪  Arquitectos de datos
+            p.mb-0 ▪  Arquitectos empresariales.
+            p.mb-0 ▪  Arquitectos de soluciones. 
+            p.mb-0 ▪  Arquitectos de seguridad.
+            p.mb-0 ▪  Arquitectos de datos.
             p.mb-0 ▪  Arquitecto de TI.
           .tarjeta.color-acento-botones.p-3(x="70%" y="50%" numero="2")
             h4 #[i Stakeholders]
@@ -111,7 +111,7 @@
       h2 2.1 Elementos del modelo de Arquitectura Empresarial
 
     p.mb-3(data-aos="fade-down") El equipo de arquitectura debe considerar los elementos para la adopción de la AE, independientemente del marco de referencia que se determine, para lo cual es importante identificarlos. De acuerdo con MINTIC (2019), en el desarrollo de la AE se tendrán elementos comunes, independiente del alcance que se haya definido en cada ejercicio; comienza con la definición de los principios que orientan de manera transversal los lineamientos que se implementan mediante guías. El proceso de arquitectura se lleva a cabo en Ejercicios de AE. Los principios orientan los ejercicios de AE que generan evidencias que se almacenan en el Repositorio de Arquitectura.
-    p.mb-5(data-aos="fade-down") A continuación, puede revisar los elementos del modelo de Arquitectura Empresarial
+    p.mb-5(data-aos="fade-down") A continuación, puede revisar los elementos del modelo de Arquitectura Empresarial.
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-primario.p-3
@@ -167,16 +167,16 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Ventajas de desarrollar Arquitectura Empresarial
 
-    p.mb-3(data-aos="fade-down") Como se ha venido mencionando, adoptar la AE genera diferentes beneficios para las organizaciones, con un entorno de TI unificado en toda la organización, alineado y estandarizado, tanto en plataforma tecnológica como los procesos de desarrollo de software, se habilita la innovación, es posible ejecutar las estrategias, reducir los costos de TI y mejorar los procesos y capacidades.   
-    p.mb-5(data-aos="fade-down") En el siguiente esquema se presentan algunas de las ventajas que pueden alcanzar las organizaciones
+    p.mb-3(data-aos="fade-down") Como se ha venido mencionando, adoptar la AE genera diferentes beneficios para las organizaciones, con un entorno de TI unificado en toda la organización, alineado y estandarizado, tanto en plataforma tecnológica como los procesos de desarrollo de #[em software], se habilita la innovación, es posible ejecutar las estrategias, reducir los costos de TI y mejorar los procesos y capacidades.   
+    p.mb-5(data-aos="fade-down") #[b En el siguiente esquema se presentan algunas de las ventajas que pueden alcanzar las organizaciones.]
 
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
       .col-12.mb-2.mb-md-0
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Conceptualización arquitectura empresarial</i>
         figure 
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-08-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-08-sm.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-08-md.svg', alt='Conceptualización arquitectura empresarial: a) Habilita la innovación. b) Estandarización, reducción de complejidad y costos de TI. c) Mejoramiento de procesos y capacidades. d) Realización de la estrategia.')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-08-sm.svg', alt='Conceptualización arquitectura empresarial: a) Habilita la innovación. b) Estandarización, reducción de complejidad y costos de TI. c) Mejoramiento de procesos y capacidades. d) Realización de la estrategia.') 
 
     p.mb-5(data-aos="fade-down") #[b Según Arango, Londoño, & Zapata (2010), las siguientes son algunas de las utilidades que pueden lograr las empresas con la AE:] 
        

@@ -9,7 +9,7 @@
 
     p.mb-3(data-aos="fade-down") Para afrontar los retos que se presentan actualmente, las organizaciones requieren marcos de trabajo que contribuyan a sumar esfuerzos de todas las unidades de negocio para optimizar recursos, habilitar el crecimiento empresarial empleando tecnologías basadas en datos, gestionar riesgos y asegurar el cumplimiento de las regulaciones. La Arquitectura Empresarial ofrece un marco de trabajo precisamente con esas características para potenciar los negocios, incorporar cambios y aplicar innovación en los procesos.
 
-    p.mb-5(data-aos="fade-down") Pero, entonces, ¿Cuáles son los retos que deben enfrentar las organizaciones?
+    p.mb-5(data-aos="fade-down") Pero, entonces, ¿Cuáles son los retos que deben enfrentar las organizaciones?.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-right")
       .col-12.col-md-11.col-lg-11
@@ -35,7 +35,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/tema1-02.svg', alt='')
       .col-12.col-md-6.col-lg-6
-        p Se requiere pensar en el uso de las tecnologías digitales para crear nuevos modelos de negocio, en los que se mezclan el mundo digital y el físico, con lo cual es posible conducir a los clientes, cada vez más exigentes, a la denominada transformación digital como un imperativo para la evolución de los negocios. Por ello aplicar la Arquitectura Empresarial (AE) facilita que las organizaciones tengan un entendimiento común sobre la forma en la que funciona el negocio en el momento actual. Esta comprensión se dirige a conocer la estrategia, las operaciones, los sistemas de información y la tecnología; también permite responder preguntas del tipo ¿qué?, ¿dónde?, ¿cuándo? ¿cómo? y ¿por qué?
+        p Se requiere pensar en el uso de las tecnologías digitales para crear nuevos modelos de negocio, en los que se mezclan el mundo digital y el físico, con lo cual es posible conducir a los clientes, cada vez más exigentes, a la denominada transformación digital como un imperativo para la evolución de los negocios. Por ello aplicar la Arquitectura Empresarial (AE) facilita que las organizaciones tengan un entendimiento común sobre la forma en la que funciona el negocio en el momento actual. Esta comprensión se dirige a conocer la estrategia, las operaciones, los sistemas de información y la tecnología; también permite responder preguntas del tipo ¿qué?, ¿dónde?, ¿cuándo?, ¿cómo? y ¿por qué?.
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
       .col-lg-8.col.md-10.col-12
@@ -55,7 +55,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario" data-aos="flip-left")
       .row(titulo="Permitir el crecimiento")
         .col-md-9.col-lg-10.col-12.mb-4.mb-md-0
-          p Las empresas necesitan innovar rápidamente para seguir siendo competitivas. Muchas organizaciones se esfuerzan por adoptar tecnologías más nuevas como microservicios, Internet de las cosas (IoT) o migración a la nube. También buscan implementar las metodologías de desarrollo de software como Lean y DevOps necesarias para mantener el ritmo en el mundo digital actual. Estas tendencias pueden aportar un valor considerable al acelerar el tiempo de comercialización, crear nuevas fuentes de ingresos, reducir costos y mejorar la agilidad. 
+          p Las empresas necesitan innovar rápidamente para seguir siendo competitivas. Muchas organizaciones se esfuerzan por adoptar tecnologías más nuevas como microservicios, Internet de las cosas (IoT) o migración a la nube. También buscan implementar las metodologías de desarrollo de #[i software] como Lean y DevOps necesarias para mantener el ritmo en el mundo digital actual. Estas tendencias pueden aportar un valor considerable al acelerar el tiempo de comercialización, crear nuevas fuentes de ingresos, reducir costos y mejorar la agilidad. 
         .col-md-3.col-lg-2.col-12.mb-4.mb-md-0
           img(src='@/assets/curso/temas/tema1/tema1-04.svg' alt='')
         .col-12.mt-3
@@ -113,7 +113,7 @@
                   | Las interrupciones de TI.    
                 li.mb-0.text-small 
                   i.fas.fa-angle-right
-                  | Las aplicaciones obsoletas (legacy applications).    
+                  | Las aplicaciones obsoletas (#[em legacy applications]).    
                 li.mb-0.text-small 
                   i.fas.fa-angle-right
                   | El soporte a la infraestructura.
@@ -154,10 +154,10 @@
 
           .row(numero="G" titulo="De monolito a microservicios")
             .col-12.mb-4.mb-md-0
-              p.text-small La rápida aceleración de la digitalización está obligando a muchas empresas a repensar sus arquitecturas y para satisfacer las expectativas en constante crecimiento de los clientes expertos en tecnología, las empresas deben asegurarse de que sus productos estén disponibles en todos los canales digitales lo más rápido posible.  Una forma de reducir los tiempos de producción es introducir una arquitectura de microservicios en el desarrollo de software.
+              p.text-small La rápida aceleración de la digitalización está obligando a muchas empresas a repensar sus arquitecturas y para satisfacer las expectativas en constante crecimiento de los clientes expertos en tecnología, las empresas deben asegurarse de que sus productos estén disponibles en todos los canales digitales lo más rápido posible.  Una forma de reducir los tiempos de producción es introducir una arquitectura de microservicios en el desarrollo de #[i software].
               div.p-3(style="background-color:#FFFCE9")
-                p.mb-0.text-small Las empresas que utilizan microservicios implementan nuevas versiones de software cinco veces más rápido que las que no los utilizan. 
-          .row(numero="H" titulo="Arquitectura del Internet de las cosas")
+                p.mb-0.text-small Las empresas que utilizan microservicios implementan nuevas versiones de #[i software] cinco veces más rápido que las que no los utilizan. 
+          .row(numero="H" titulo="Transformación en la nube")
             .col-12.mb-4.mb-md-0
               p.text-small La computación en la nube tiene muchos beneficios, incluidos ahorros de costos, mejoras en la eficiencia, ciclos de desarrollo más cortos, tiempo de comercialización más rápido y la capacidad de escalar con la demanda. La nube se ha convertido en un determinante clave de la estrategia empresarial y de TI.
               p.text-small Los arquitectos empresariales pueden implementar una hoja de ruta desde la infraestructura local hasta la nube, a pesar de las numerosas restricciones que influyen en la adopción de la nube, incluidos los límites presupuestarios, la creciente complejidad de las políticas corporativas y las regulaciones externas. 
@@ -183,10 +183,59 @@
     p.mb-5(data-aos="fade-down") Le invitamos a consultar la siguiente infografía para conocer la relación entre los campos de acción y los casos de uso en la AE:
     
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
-      .col-12.mb-2.mb-md-0
-        figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/tema1-09-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/tema1-09-sm.svg', alt='') 
+      //- .col-12.mb-2.mb-md-0
+      //-   figure
+      //-     img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/tema1-09-md.svg', alt='')
+      //-     img.d-block.d-md-none(src='@/assets/curso/temas/tema1/tema1-09-sm.svg', alt='') 
+      .col-12.mb-5
+        .h4.text-center
+          span Casos de uso resueltos con Arquitectura Empresarial
+        PasosA.color-primario.mb-5(tipo="n")
+          .row.justify-content-center.align-items-center(data-aos="fade-down-right")
+            .col-md-6.mb-4.mb-md-0
+              h5.text-center Campos de acción
+              .tarjeta.color-secundario.p-3
+                p.text-center.mb-0 #[b Permitir el crecimiento]
+            .col-md-6
+              h5.text-center Casos de uso
+              .tarjeta-avatar-b
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/temas/tema1/info-1.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--azul
+                  .px-5.py-3.text-small
+                    p.mb-0 1. Armonización después de fusiones.
+                    p.mb-0 2. Racionalización de aplicaciones.
+                    p.mb-0 3. Arquitectura de Integración.
+          .row.justify-content-center.align-items-center(data-aos="fade-down-left")
+            .col-md-6.mb-4.mb-md-0
+              h5.text-center Campos de acción
+              .tarjeta.color-secundario.p-3
+                p.text-center.mb-0 #[b Asegurar el cumplimiento]
+            .col-md-6
+              h5.text-center Casos de uso
+              .tarjeta-avatar-b
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/temas/tema1/info-2.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--azul.text-start
+                  .px-5.py-3.text-small
+                    p.mb-0 4. Gestión de riesgos tecnológicos.
+                    p.mb-0 5. Cumplimiento de datos.
+                    p.mb-0 6. Gobernanza de estándares.
+          .row.justify-content-center.align-items-center(data-aos="fade-down-right")
+            .col-md-6.mb-4.mb-md-0
+              h5.text-center Campos de acción
+              .tarjeta.color-secundario.p-3
+                p.text-center.mb-0 #[b Reducir la complejidad]
+            .col-md-6
+              h5.text-center Casos de uso
+              .tarjeta-avatar-b
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/temas/tema1/info-3.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--azul.text-start
+                  .px-5.py-3.text-small
+                    p.mb-0 7. De monolito a Microservicios.
+                    p.mb-0 8. Transformación en la nube.
+                    p.mb-0 9. Arquitectura del Internet de las cosas.
 
 
 </template>

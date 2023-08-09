@@ -53,7 +53,7 @@
                           | No proporciona ninguna guía de implementación real para crear artefactos arquitectónicos.
                         li
                           i.fas.fa-angle-right
-                          | No es popular en la comunidad de desarrolladores de software.
+                          | No es popular en la comunidad de desarrolladores de #[em software].
                   tr 
                     th.text-center TOGAF
                     td 

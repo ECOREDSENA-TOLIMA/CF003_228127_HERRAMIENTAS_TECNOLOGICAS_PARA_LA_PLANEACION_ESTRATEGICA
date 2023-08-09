@@ -40,7 +40,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Conceptualización de Arquitectura empresarial',
+        titulo: 'Conceptualización de Arquitectura Empresarial',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -204,7 +204,7 @@ export default {
     },
     {
       referencia:
-        'conexiam.com. (2022).  <em>Los tres tipos de marcos de arquitectura empresarial.</em> ',
+        'Conexiam.com. (2022).  <em>Los tres tipos de marcos de arquitectura empresarial.</em> ',
       link:
         'https://conexiam.com/es/the-three-types-of-enterprise-architecture-framework/',
     },
@@ -216,16 +216,16 @@ export default {
     },
     {
       referencia:
-        'leanix.net. (2021). <em>Nine Use Cases Solved With Enterprise Architecture.</em> ',
+        'Leanix.net. (2021). <em>Nine Use Cases Solved With Enterprise Architecture.</em> ',
       link:
         'https://www.leanix.net/en/download/nine-use-cases-solved-with-enterprise-architecture?__hstc=65454513.0d5b9229691fb3862f59d1107d1202ee.1665196286446.1665196286446.1665196286446.1&__hssc=65454513.1.1665196286447&__hsfp=661783108&hsCtaTracking=9200acfc-8a43',
     },
     {
-      referencia: 'leanix.net. (2021). <em>Zachman framework.</em> ',
+      referencia: 'Leanix.net. (2021). <em>Zachman framework.</em> ',
       link: 'https://www.leanix.net/en/wiki/ea/zachman-framework',
     },
     {
-      referencia: 'Microsoft. (2022). <em>azure.microsoft.com.</em> ',
+      referencia: 'Microsoft. (2022). <em>¿Qué es DevOps?</em> ',
       link:
         'https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-devops/#devops-overview',
     },
