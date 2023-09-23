@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="actividad2" />
+              <option name="title_text" value="Actividad did&amp;#225;ctica" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -226,7 +226,7 @@
           <color name="focus_rect">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFF00" alpha="100" stop="0" />
+                <color rgb="0x9CEB78" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -985,7 +985,7 @@
           <color name="btn_text_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1006,8 +1006,8 @@
           <color name="btn_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFDBC2E" alpha="100" stop="0" />
-                <color rgb="0xFFC000" alpha="100" stop="255" />
+                <color rgb="0x1F5B3B" alpha="100" stop="0" />
+                <color rgb="0x2F8859" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -1022,8 +1022,8 @@
           <color name="btn_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF36F21" alpha="100" stop="0" />
-                <color rgb="0xF36F21" alpha="100" stop="255" />
+                <color rgb="0x39A900" alpha="100" stop="0" />
+                <color rgb="0x1C5201" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -1070,16 +1070,16 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
-                <color rgb="0x000000" alpha="100" stop="255" />
+                <color rgb="0x292929" alpha="100" stop="0" />
+                <color rgb="0x292929" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
-                <color rgb="0x000000" alpha="100" stop="255" />
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>

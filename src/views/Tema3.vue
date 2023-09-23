@@ -33,7 +33,7 @@
                 h4.text-center Marcos de referencia integrales
               .col-10.col-md-7.mb-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/fig-3-1.svg', alt='')
+                  img(src='@/assets/curso/temas/tema3/fig-3-1.svg', alt='Marcos de referencia integrales, que contienen los TOGAF y Zachman')
               .col-10.col-md-6
                 p.text-small.mb-0 ▪ TOGAF
                 p.text-small.mb-0 ▪ Zachman 
@@ -43,7 +43,7 @@
                 h4.text-center Marcos de referencia industrias
               .col-10.col-md-7.mb-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/fig-3-2.svg', alt='')
+                  img(src='@/assets/curso/temas/tema3/fig-3-2.svg', alt='Marcos de referencia de industrias, que contienen los BIAN, los DODAF, los FEAF ODF, los IndEA y los MRAE')
               .col-12.row.justify-content-center
                 .col-10.col-md-4
                   p.text-small.mb-0 ▪ BIAN
@@ -59,7 +59,7 @@
                 h4.text-center Marcos de referencia dominio
               .col-10.col-md-7.mb-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/fig-3-3.svg', alt='')
+                  img(src='@/assets/curso/temas/tema3/fig-3-3.svg', alt='Marcos de referencia de dominio, que corresponden con los SABSA y los DODAF')
               .col-md-6.col-10
                 p.text-small.mb-0 ▪ SABSA
                 p.text-small.mb-0 ▪ DODAF 
@@ -221,7 +221,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Dominio tecnológico  
-            p Corresponde a la capa inferior, describe las capacidades lógicas de #[em software] y hardware que se requieren para respaldar la implementación de servicios comerciales, de datos y de aplicaciones; incluye la infraestructura de TI, middleware, redes, comunicaciones, procesamiento, y estándares. El crecimiento del gasto en el dominio de la tecnología a menudo supera el resto del gasto en el negocio, se busca ser estratégicos en la forma en que el dominio de la tecnología satisface las necesidades del negocio. 
+            p Corresponde a la capa inferior, describe las capacidades lógicas de #[em software] y #[em hardware] que se requieren para respaldar la implementación de servicios comerciales, de datos y de aplicaciones; incluye la infraestructura de TI, #[em middleware], redes, comunicaciones, procesamiento, y estándares. El crecimiento del gasto en el dominio de la tecnología a menudo supera el resto del gasto en el negocio, se busca ser estratégicos en la forma en que el dominio de la tecnología satisface las necesidades del negocio. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/tema3-17.png', alt='')

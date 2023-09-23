@@ -7,11 +7,11 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/emparejamiento.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Marcos de referencia de la Arquitectura Empresarial 
-        p.mb-4 #[b Objetivo] Identificar los marcos de referencia de la Arquitectura Empresarial disponibles y su tipificación, para seleccionar el más conveniente en la organización, según las características y las necesidades de la organización.  
+        p.mb-4 #[b Objetivo:] identificar los marcos de referencia de la Arquitectura Empresarial disponibles y su tipificación, para seleccionar el más conveniente en la organización, según las características y las necesidades de la organización.  
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
@@ -25,15 +25,15 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/opcion-multiple.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Conceptos fundamentales de la Arquitectura Empresarial 
-        p.mb-4 #[b Objetivo] Identificar los marcos de referencia de la Arquitectura Empresarial disponibles y su tipificación, para seleccionar el más conveniente en la organización, según las características y las necesidades de la organización.  
+        p.mb-4 #[b Objetivo:] identificar los marcos de referencia de la Arquitectura Empresarial disponibles y su tipificación, para seleccionar el más conveniente en la organización, según las características y las necesidades de la organización.  
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Falso o verdadero
+              p.fw-bold.mb-0 Selección múltiple con una o varias respuestas
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad2/actividad.html')" target="_blank")
                 span Realizar
