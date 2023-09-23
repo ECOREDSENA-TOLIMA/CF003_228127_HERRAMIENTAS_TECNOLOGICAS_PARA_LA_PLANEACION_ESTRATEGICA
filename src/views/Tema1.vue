@@ -47,7 +47,8 @@
               p.mb-0 Transformar digitalmente la organización, para articular al estado futuro deseado con la correspondiente planeación para alcanzarlo.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Campos de acción y casos de uso en la Arquitectura Empresarial
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Campos de acción y casos de uso en la Arquitectura Empresarial
+      div.titulo-herramientas.d-block.d-md-none Campos de acción y casos de uso en la Arquitectura Empresarial
 
     p.mb-3(data-aos="fade-down") De acuerdo con Leanix.net (2021), los arquitectos empresariales se desempeñan en determinados campos de acción clave, con lo cual logran agregar valor a las organizaciones. Asimismo, estos campos se relacionan con casos de uso que se resuelven comúnmente mediante la AE.
     p.mb-5(data-aos="fade-down") A continuación, nos familiarizaremos con los campos de acción clave:  
@@ -68,7 +69,7 @@
             p.mb-0 Tengamos en cuenta que mantenerse en cumplimiento de todas esta normativa es costoso para las organizaciones, pero las tarifas por incumplimiento son aún más altas. 
         .col-md-3.col-lg-2.col-12.mb-4.mb-md-0
           img(src='@/assets/curso/temas/tema1/tema1-05.svg' alt='')
-      .row(titulo="Permitir el crecimiento")
+      .row(titulo="Reducir la complejidad")
         .col-md-9.col-lg-10.col-12.mb-4.mb-md-0
           p A medida que las organizaciones experimentan un crecimiento orgánico e inorgánico, los entornos de TI pueden volverse inmanejables rápidamente, lo cual puede resultar en sistemas duplicados, datos inconsistentes y la necesidad de integración de sistemas. Los arquitectos empresariales pueden abordar la complejidad excesiva al proporcionar una hoja de ruta para optimizar los entornos de TI, lo que contribuye directamente a reducir los costos.
         .col-md-3.col-lg-2.col-12.mb-4.mb-md-0

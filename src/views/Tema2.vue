@@ -113,7 +113,7 @@
     p.mb-3(data-aos="fade-down") El equipo de arquitectura debe considerar los elementos para la adopción de la AE, independientemente del marco de referencia que se determine, para lo cual es importante identificarlos. De acuerdo con MINTIC (2019), en el desarrollo de la AE se tendrán elementos comunes, independiente del alcance que se haya definido en cada ejercicio; comienza con la definición de los principios que orientan de manera transversal los lineamientos que se implementan mediante guías. El proceso de arquitectura se lleva a cabo en Ejercicios de AE. Los principios orientan los ejercicios de AE que generan evidencias que se almacenan en el Repositorio de Arquitectura.
     p.mb-5(data-aos="fade-down") A continuación, puede revisar los elementos del modelo de Arquitectura Empresarial.
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4 col-md-10 col-11 px-5 col-ipad px-lg-2")
       .tarjeta.color-primario.p-3
         .row.justify-content-center.mb-3
           .col-8

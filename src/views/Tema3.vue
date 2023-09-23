@@ -24,8 +24,8 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
       .col-12.mb-2.mb-md-0
-        .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Tipos de marcos de referencia de AE</i>
+        //- .titulo-sexto.color-acento-contenido
+        //-   p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Tipos de marcos de referencia de AE</i>
         .tarjeta--container.row.mb-2
           .col-md.tarjeta.color-secundario.p-4
             .row.justify-content-center.mb-4
@@ -68,7 +68,8 @@
         //-   img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-02-sm.svg', alt='') 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Marcos integrales de arquitectura empresarial
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Marcos integrales de arquitectura empresarial
+      div.titulo-herramientas.d-block.d-md-none Marcos integrales de arquitectura empresarial
 
     p.mb-0(data-aos="fade-down") Los marcos de arquitectura integral se aplican ampliamente, son independientes de la industria y del dominio. 
     p.mb-5(data-aos="fade-down") En este tipo de marco se presentan dos marcos integrales principales: #[b TOGAF® y Zachman.]
@@ -117,7 +118,8 @@
                     i.fas.fa-link
         
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Marcos integrales de arquitectura empresarial
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Marcos integrales de arquitectura empresarial
+      div.titulo-herramientas.d-block.d-md-none Marcos integrales de arquitectura empresarial
 
     p.mb-3(data-aos="fade-down") Estos marcos se optimizaron para industrias específicas, en los que se especifican las partes interesadas, los puntos de vista y las técnicas del modelo. También pueden proporcionar modelos de referencia de la industria. 
     p.mb-5(data-aos="fade-down") #[b #[i Según conexiam.com (2022)]], se pueden mencionar los siguientes tipos de marcos de arquitectura de la industria: 
@@ -150,7 +152,8 @@
           p Diseñado para la gestión de Tecnologías de la Información del Estado colombiano; es un instrumento para implementar la Arquitectura de la Política de Gobierno Digital (PGD), que establece el uso y aprovechamiento de las tecnologías de la información y las comunicaciones, para consolidar un Estado y ciudadanos competitivos, proactivos e innovadores, que generen valor público en un entorno de confianza digital. 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Marcos de arquitectura de dominio
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Marcos de arquitectura de dominio
+      div.titulo-herramientas.d-block.d-md-none Marcos de arquitectura de dominio
 
     p.mb-5(data-aos="fade-down") Optimizan los marcos de arquitectura para un dominio específico. A continuación, se mencionan dos marcos de referencia que proporcionan técnicas y métodos más detallados para la Arquitectura de Seguridad y la de Integración:
 
@@ -181,7 +184,7 @@
               img(src="@/assets/curso/temas/tema3/tema3-12.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Principios Empresariales
-            p.mb-0 Proporcionan una base para la toma de decisiones en toda la empresa e informan cómo la organización se dispone a cumplir su misión. Se encuentran como un medio para armonizar la toma de decisiones en toda la organización. En particular, son un elemento clave en una estrategia exitosa de gobernanza de la arquitectura. Estos principios deben estar alineados con el contexto organizacional de la capacidad de la arquitectura.
+            p.mb-0.text-small Proporcionan una base para la toma de decisiones en toda la empresa e informan cómo la organización se dispone a cumplir su misión. Se encuentran como un medio para armonizar la toma de decisiones en toda la organización. En particular, son un elemento clave en una estrategia exitosa de gobernanza de la arquitectura. Estos principios deben estar alineados con el contexto organizacional de la capacidad de la arquitectura.
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -189,7 +192,7 @@
               img(src="@/assets/curso/temas/tema3/tema3-13.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Principios de Arquitectura
-            p.mb-0 Gobiernan el proceso de arquitectura, afectando el desarrollo, mantenimiento y uso de la AE. Cada principio de arquitectura debe relacionarse con los objetivos comerciales y los impulsores clave de la arquitectura. Por lo general, estos principios son desarrollados por el arquitecto principal, junto con el gerente de tecnología de la empresa, el consejo de arquitectura y otras partes interesadas clave del negocio. 
+            p.mb-0.text-small Gobiernan el proceso de arquitectura, afectando el desarrollo, mantenimiento y uso de la AE. Cada principio de arquitectura debe relacionarse con los objetivos comerciales y los impulsores clave de la arquitectura. Por lo general, estos principios son desarrollados por el arquitecto principal, junto con el gerente de tecnología de la empresa, el consejo de arquitectura y otras partes interesadas clave del negocio. 
 
     p.mb-3(data-aos="fade-down") Luego de escribir los principios, se deben desarrollar políticas y procedimientos apropiados para apoyar la implementación de los mismos.
     p.mb-3(data-aos="fade-down") #[b Ahora, revisemos los dominios de arquitectura TOGAF-BDAT.]
@@ -274,7 +277,8 @@
     p.mb-3(data-aos="fade-down") Dentro de cada fase del proceso, se generan unas salidas o productos del ejercicio de la arquitectura, TOGAF describe tres tipos de producto de trabajo arquitectónico: los artefactos que conforman el contenido del Repositorio de Arquitectura, los bloques de construcción y los entregables. 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Artefactos
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Artefactos
+      div.titulo-herramientas.d-block.d-md-none Artefactos
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-12.col-md-8
@@ -354,7 +358,8 @@
 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Bloques de construcción
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Bloques de construcción
+      div.titulo-herramientas.d-block.d-md-none Bloques de construcción
 
     p.mb-5(data-aos="fade-down") Los bloques de construcción (#[i Building Blocks]) son un componente básico que se puede reutilizar tanto como se pueda en la arquitectura. Ahora, TOGAF desglosa este concepto en bloques de construcción de arquitectura y bloques de construcción de soluciones como se describe a continuación:
 
@@ -374,7 +379,8 @@
                   p #[b #[i Solution building block (SBB)]] representa la solución técnica que se puede reutilizar entre los diagramas de arquitectura, básicamente, se trata de implementaciones. Si seguimos el ejemplo anterior, la capacidad ABB “búsqueda de cliente”, se implementa en una solución tecnológica o plataforma CRM (#[i Customer Relationship Management]), que es la solución SBB, al concepto de negocio “búsqueda de cliente”. 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Entregables 
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Entregables 
+      div.titulo-herramientas.d-block.d-md-none Entregables
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-12.col-md-8
