@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
       
-    p.mb-5(data-aos="fade-down") Cordial bienvenida a este componente formativo en el que se tratará el marco de referencia de la Arquitectura Empresarial; para conocer su importancia y los diferentes elementos que le competen, le invitamos a observar el siguiente video:
+    p.mb-5(data-aos="fade-down") Cordial bienvenida a este componente formativo en el que se tratará el marco de referencia de la Arquitectura Empresarial; para conocer su importancia y los diferentes elementos que le competen, le invitamos a consultar el siguiente video:
 
     figure(data-aos="fade-down")
       .video

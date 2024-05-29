@@ -237,7 +237,7 @@ export default {
     {
       referencia: 'MINTIC. (2019). <em>Arquitectura TI Colombia.</em> ',
       link:
-        'https://www.mintic.gov.co/arquitecturati/630/w3-propertyvalue-8118.html',
+        'https://www.mintic.gov.co/portal/inicio/Atencion-y-Servicio-a-la-Ciudadania/Preguntas-frecuentes/54891:Arquitectura-TI-Colombia',
     },
     {
       referencia: 'The Open Group. (2018). <em>Togaf Versión 9.2.</em> ',
